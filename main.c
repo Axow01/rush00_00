@@ -6,7 +6,7 @@
 /*   By: mmarcott <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 19:49:41 by mmarcott          #+#    #+#             */
-/*   Updated: 2022/09/16 20:46:48 by mmarcott         ###   ########.fr       */
+/*   Updated: 2022/09/16 23:08:57 by mmarcott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,6 @@ void rush(int x, int y);
 
 int	main(void)
 {
-	rush(30, 120);
+	rush(8, 3);
 	return (0);
 }
