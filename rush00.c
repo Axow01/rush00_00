@@ -6,7 +6,7 @@
 /*   By: mmarcott <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 19:42:56 by mmarcott          #+#    #+#             */
-/*   Updated: 2022/09/17 11:29:24 by mmarcott         ###   ########.fr       */
+/*   Updated: 2022/09/17 12:26:41 by mmarcott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	rush(int x, int y)
 			checker(x, y, i, i2);
 			i2++;
 		}
-		ft_putchar("\n");
+		ft_putchar('\n');
 		i2 = 0;
 		i++;
 	}

@@ -6,9 +6,11 @@
 /*   By: mmarcott <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 19:49:41 by mmarcott          #+#    #+#             */
-/*   Updated: 2022/09/17 11:30:30 by mmarcott         ###   ########.fr       */
+/*   Updated: 2022/09/17 12:07:49 by mmarcott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	rush(int x, int y);
 
