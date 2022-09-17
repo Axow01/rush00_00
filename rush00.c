@@ -16,8 +16,6 @@
 
 void	rush(int x, int y)
 {
-	char width;
-	char height;
 	char	vol[4];
 	int	i;
 	int i2;
@@ -26,15 +24,13 @@ void	rush(int x, int y)
 	vol[1] = ' ';
 	vol[2] = '-';
 	vol[3] = '|';
-	height = y + '0';
-	width = x + '0';
 	i = 0;
 	i2 = 0;
-	while (i < 3)
+	while (i < y)
 	{
-		while (i2 < 5)
+		while (i2 < x)
 		{
-			write(1, &width, 1);
+			write(1, "o", 1);
 			i2++;
 		}
 		write(1, "\n", 1);
