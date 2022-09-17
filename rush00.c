@@ -6,12 +6,9 @@
 /*   By: mmarcott <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 19:42:56 by mmarcott          #+#    #+#             */
-/*   Updated: 2022/09/17 11:23:49 by mmarcott         ###   ########.fr       */
+/*   Updated: 2022/09/17 11:29:24 by mmarcott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-#include <unistd.h>
 
 void	ft_putchar(char c);
 
@@ -31,7 +28,7 @@ void	rush(int x, int y)
 			checker(x, y, i, i2);
 			i2++;
 		}
-		write(1, "\n", 1);
+		ft_putchar("\n");
 		i2 = 0;
 		i++;
 	}

@@ -6,11 +6,10 @@
 /*   By: mmarcott <mickael.marcotte2004@gmail.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 22:45:40 by mmarcott          #+#    #+#             */
-/*   Updated: 2022/09/16 23:14:12 by mmarcott         ###   ########.fr       */
+/*   Updated: 2022/09/17 11:27:28 by mmarcott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <unistd.h>
 
 void	ft_putchar(char c)
