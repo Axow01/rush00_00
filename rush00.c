@@ -38,6 +38,7 @@ void	rush(int x, int y)
 			i2++;
 		}
 		write(1, "\n", 1);
+		i2 = 0;
 		i++;
 	}
 }
